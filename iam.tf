@@ -145,7 +145,7 @@ resource "aws_iam_policy" "alb_ingress_controller_policy" {
           "elasticloadbalancing:DescribeTargetGroups",
           "elasticloadbalancing:DescribeTargetGroupAttributes",
           "elasticloadbalancing:DescribeTargetHealth",
-          "elasticloadbalancing:DescribeTags"
+          "elasticloadbalancing:*"
         ]
         Resource = "*"
       },

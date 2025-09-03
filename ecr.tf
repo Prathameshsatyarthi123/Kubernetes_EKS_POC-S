@@ -1,5 +1,5 @@
-resource "aws_ecr_repository" "image1" {
-  name                 = "microservice-I"
+resource "aws_ecr_repository" "imageone" {
+  name                 = "microservice-one"
   image_tag_mutability = "MUTABLE"
   
 
@@ -8,8 +8,8 @@ resource "aws_ecr_repository" "image1" {
   }
 }
 
-resource "aws_ecr_repository" "image2" {
-  name                 = "microservice-II"
+resource "aws_ecr_repository" "imagetwo" {
+  name                 = "microservice-two"
   image_tag_mutability = "MUTABLE"
   
 
